@@ -1,0 +1,21 @@
+#masthead {
+    width:calc(100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: absolute;
+    top: 20px; //TODO: Replace with SCSS variable
+
+    #signature {
+        //width: 250px;
+        height: 60px;
+        font-family: Georgia;
+        font-size: 54px;
+        background-color: #ffffff;
+    }
+
+    #test {
+        flex-grow: 1;
+    }
+}
