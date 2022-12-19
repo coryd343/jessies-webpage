@@ -1,0 +1,13 @@
+@import "src/styles/colors.scss";
+#app-main {
+    width: 100vw;
+    height: 100vh;
+    background-color: $seagween;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+}
+
+#app-content {
+    flex: auto;
+}

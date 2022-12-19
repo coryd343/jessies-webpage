@@ -13,6 +13,7 @@ import { GalleryComponent } from './core/gallery/gallery.component';
 import { StoreComponent } from './core/store/store.component';
 import { AboutComponent } from './core/about/about.component';
 import { MastheadComponent } from './masthead/masthead.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { MastheadComponent } from './masthead/masthead.component';
     GalleryComponent,
     StoreComponent,
     AboutComponent,
-    MastheadComponent
+    MastheadComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

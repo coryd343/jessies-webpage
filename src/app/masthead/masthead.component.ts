@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./masthead.component.scss']
 })
 export class MastheadComponent implements OnInit {
+  showNav: boolean = false;
 
   constructor() { }
 
