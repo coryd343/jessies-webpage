@@ -1,13 +1,25 @@
 @import "src/styles/colors.scss";
+@import "src/styles/var.scss";
 #app-main {
     width: 100vw;
-    height: 100vh;
-    background-color: $seagween;
+    min-height: 100vh;
+    // background-color: $seagween;
+    background-image: url("../assets/mushroom-odyssey.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
-    // justify-content: center;
-}
 
-#app-content {
-    flex: auto;
+    #app-content {
+        flex: auto;
+    
+        #center-column {
+            width: 80%;
+            background-color: $ice;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: $sp3;
+            padding-right: $sp3;
+        }
+    }
 }

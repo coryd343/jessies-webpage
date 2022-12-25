@@ -1,0 +1,17 @@
+@import "src/styles/var.scss";
+@import "src/styles/colors.scss";
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: $sp2;
+    margin-top: $sp1;
+    margin-bottom: $sp1;
+    background-color: $snow;
+    border-radius: 10px;
+    
+    .spotlight-image {
+        width: 300px;
+    }
+}

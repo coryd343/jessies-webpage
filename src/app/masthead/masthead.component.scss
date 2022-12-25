@@ -3,19 +3,26 @@
 
 #masthead-container {
   width: calc(100%);
-  height: 100px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-top: $sp1;
-  margin-bottom: $sp1;
+  padding-bottom: $sp1;
+  background: $sunglasses;
 
-  #signature {
-    text-align: center;
-    font-family: Georgia;
-    font-size: 54px;
-    color: $snow;
-    margin-bottom: 30px;
+  #signature-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: auto;
+
+    #signature {
+      text-align: center;
+      font-family: Georgia;
+      font-size: 54px;
+      color: $snow;
+    }
   }
+  
 }

@@ -8,10 +8,10 @@ import { StoreComponent } from './core/store/store.component';
 
 const routes: Routes = [
   { path: "", component: LandingComponent },
-  { path: "blog", component: BlogComponent },
+  // { path: "blog", component: BlogComponent },
   { path: "about", component: AboutComponent },
-  { path: "gallery", component: GalleryComponent },
-  { path: "store", component: StoreComponent },
+  // { path: "gallery", component: GalleryComponent },
+  // { path: "store", component: StoreComponent },
 ];
 
 @NgModule({

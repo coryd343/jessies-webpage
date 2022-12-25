@@ -1,3 +1,5 @@
+@import "src/styles/colors.scss";
+@import "src/styles/var.scss";
 #navbar {
   width: calc(100%);
   height: 48px;
@@ -6,8 +8,21 @@
   justify-content: center;
 
   .nav-button {
-    width: 60px;
+    // width: 60px;
+    // height: 40px;
+    padding: $sp1 $sp2;
     margin-left: 12px;
     margin-right: 12px;
+    background-color: $seagween;
+    border-radius: $sp1;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.5s;
+
+    &:hover {
+      background-color: #ffee10;
+      color: #000;
+      transition: 0.5s;
+    }
   }
 }

@@ -1,3 +1,3 @@
 <div id="landing-container">
-    <img src="assets/fruity-dinos.png" class="spotlight-image">
+    <app-post *ngFor="let post of posts" [title]="post.title" [body]="post.body" [imageUrl]="post.imageUrl"></app-post>
 </div>

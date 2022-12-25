@@ -14,6 +14,8 @@ import { StoreComponent } from './core/store/store.component';
 import { AboutComponent } from './core/about/about.component';
 import { MastheadComponent } from './masthead/masthead.component';
 import { FooterComponent } from './footer/footer.component';
+import { PostComponent } from './core/post/post.component';
+import { PostService } from './services/post.service';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { FooterComponent } from './footer/footer.component';
     StoreComponent,
     AboutComponent,
     MastheadComponent,
-    FooterComponent
+    FooterComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +36,7 @@ import { FooterComponent } from './footer/footer.component';
     BrowserAnimationsModule,
     MatSliderModule
   ],
-  providers: [],
+  providers: [PostService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
