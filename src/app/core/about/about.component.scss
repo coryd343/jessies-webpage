@@ -1,0 +1,25 @@
+@import "src/styles/var.scss";
+#about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: $sp2;
+    padding-bottom: $sp2;
+
+    #portrait-container {
+        margin-left: 150px;
+        margin-right: $sp2;
+        #about-portrait {
+            height: 70vh;
+            border: 5px solid black;
+        }
+    }
+
+    #bio {
+         width: calc(40%);
+         padding-left: $sp2;
+         padding-right: $sp2;
+         font-size: 18px;
+         line-height: $sp3;
+    }
+}
