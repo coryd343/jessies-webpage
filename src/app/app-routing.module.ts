@@ -7,11 +7,11 @@ import { GalleryComponent } from './core/gallery/gallery.component';
 import { StoreComponent } from './core/store/store.component';
 
 const routes: Routes = [
-  { path: "", component: LandingComponent },
-  // { path: "blog", component: BlogComponent },
-  { path: "about", component: AboutComponent },
-  // { path: "gallery", component: GalleryComponent },
-  // { path: "store", component: StoreComponent },
+  { path: "", component: LandingComponent, data: {title: "Jessie Davis | Author & Illustrator"} },
+  // { path: "blog", component: BlogComponent, data: {title: "Jessie Davis | Blog"} },
+  { path: "about", component: AboutComponent, data: {title: "Jessie Davis | About"} },
+  // { path: "gallery", component: GalleryComponent, data: {title: "Jessie Davis | Gallery"} },
+  // { path: "store", component: StoreComponent, data: {title: "Jessie Davis | Store"} },
 ];
 
 @NgModule({

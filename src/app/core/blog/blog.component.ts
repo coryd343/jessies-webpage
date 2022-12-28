@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-blog',
@@ -7,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlogComponent implements OnInit {
 
-  constructor() { }
+  constructor(private route: ActivatedRoute, private title: Title) {
+    title.setTitle(route.root.firstChild?.snapshot.data['title']);
+  }
 
   ngOnInit(): void {
   }
